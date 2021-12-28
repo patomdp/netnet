@@ -1,0 +1,33 @@
+.media-display{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* border: palegreen solid 3px; */
+    top: -150px;
+    position: relative;
+}
+
+.featured{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em ;
+    
+}
+
+.featured-title{
+    font: var(--headline2);
+}
+
+.carousel-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    overflow-x: auto;
+    width: 100vw;
+    z-index: 10;
+}
+
+.media-display.details{
+    top: auto;
+    position: relative;
+}

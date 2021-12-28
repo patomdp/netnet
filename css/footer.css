@@ -1,0 +1,27 @@
+.footer{
+    position: relative;
+    top: -100px;
+    padding-bottom: 1em;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.footer .links{
+    font-weight: normal;
+    color: var(--grey);
+}
+
+.links .is-selected{
+    font-weight: 700;
+    color: var(--white);
+}
+.footer.details{
+    top: auto;
+}

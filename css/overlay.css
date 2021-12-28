@@ -1,0 +1,26 @@
+
+.overlay{
+    position: relative;
+    top: -100px;
+    display: flex;
+    flex-direction: column;
+    height: 515px;
+    justify-content: space-between;
+    background-image: url("../image/portada.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay .top{
+    display:block;
+    height: 200px;
+    background: linear-gradient(180deg, #191919 0%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 101.98%);
+
+}
+.overlay .bottom{
+    display:block;
+    height: 70px;
+    background: linear-gradient(0deg, #191919 -99.29%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 101.98%);
+}

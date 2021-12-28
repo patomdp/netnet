@@ -1,0 +1,13 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 2em ;
+    /* gap: 48px; */
+    height: 500px;
+}
+
+.wrapper.details{
+    height: auto;
+    gap: 48px;
+}

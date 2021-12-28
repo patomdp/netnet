@@ -1,0 +1,39 @@
+@import "./header.css";
+@import "./overlay.css";
+@import "./wrapper.css";
+@import "./body.css";
+@import "./hero.css";
+@import "./button.css";
+@import "./media-display.css";
+@import "./footer.css";
+
+:root{
+    /*Color Guide*/
+    --primary: #D22F26;
+    --secondary: #FF5251;
+    --black: #000;
+    --white: #FFF;
+    --grey: #686868;
+    --gray: #2B2B2B;
+    /* Gradient */
+    --gradient: linear-gradient(180deg, #191919 0%, rgba(0, 0, 0, 0) 100%);
+    /*Typography Avenir Next for Roboto 700 400 300*/
+    /* Estructura: Font weight - font size/line height  - font family */
+    /* Ej --headline1: bold 95px/154px var(--fontBase); */
+    --fontBase: 'Roboto', sans-serif;
+    --headline1: 700 28px/38px var(--fontBase) ;
+    --headline2: 700 18px/24px var(--fontBase);
+    --body1db: 400 14px/24px var(--fontBase) ;
+    --body1reg: normal 14px/24px var(--fontBase);
+    --body2db: 400 11px/15px var(--fontBase);
+    --body2reg: normal 11px/15px var(--fontBase);
+    --button: 700 11px/15px var(--fontBase);
+}
+
+body {
+    margin: 0;
+    font: var(--body1reg);
+    color: var(--white);
+    background-color: var(--black);
+    overflow-x: hidden;
+}

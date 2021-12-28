@@ -1,0 +1,46 @@
+.button{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font: var(--button);
+    color: var(--black);
+    background-color: var(--white);
+    padding: 0.5em 1.5em;
+    border-radius: 2px ;
+    border: unset;
+}
+
+.button i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+}
+
+.button.details{
+    width: 100%;
+    margin: 0.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.button.secondary{
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+.secondary i{
+    color: var(--white);
+}
+
+.links{
+    text-decoration: none;
+    font: var(--button);
+    color: var(--white);
+}
+
+.links.is-selected{
+    font-weight: 700;
+    color: var(--white);
+}
